@@ -7,7 +7,7 @@ function Skill() {
       <h2>Skills</h2>
       <ul>
         {skill.map((skill, i) => (
-          <li key={i}></li>
+          <li key={i}>{skill}</li>
         ))}
       </ul>
     </div>
