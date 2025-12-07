@@ -63,18 +63,4 @@ Mobile view screenshot
  └── styles
        └── *.css
 
-🚀 Installation & Setup
-Clone the repository:
-git clone https://github.com/your-username/your-portfolio.git
 
-Install dependencies:
-npm install
-
-Run the project:
-npm start
-
-
-The site will open at:
-http://localhost:3000/
-
-http://localhost:3000/
