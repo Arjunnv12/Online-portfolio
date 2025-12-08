@@ -1,0 +1,143 @@
+/* GLOBAL THEME */
+body {
+  transition: background 0.3s, color 0.3s;
+}
+
+body.light-mode {
+  background: #f5f5f5;
+  color: #111;
+}
+
+/* MAIN HOME SECTION */
+.home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #000;
+  color: #fff;
+  padding: 20px;
+  position: relative;
+}
+
+/* THEME TOGGLE BUTTON */
+.theme-toggle {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  font-size: 1.8rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* HEADINGS */
+.home h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  position: relative;
+  bottom: 100px;
+  left: 150px;
+}
+.para {
+  bottom: 90px;
+  left: 140px;
+}
+
+.highlight {
+  color: #00eaff;
+  text-shadow: 0 0 10px #00eaff;
+}
+
+.subtitle {
+  margin-top: 10px;
+  font-size: 1.3rem;
+  opacity: 0.8;
+  position: relative;
+  bottom: 110px;
+  left: 145px;
+}
+
+/* BUTTONS */
+.buttons {
+  margin-top: 60px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  position: relative;
+  right: 290px;
+}
+
+.btn {
+  padding: 12px 25px;
+  font-size: 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn.primary {
+  background: #00eaff;
+  color: #000;
+  font-weight: 600;
+}
+
+.btn.primary:hover {
+  background: #00bcd4;
+  transform: scale(1.05);
+}
+
+.btn.outline {
+  border: 2px solid #00eaff;
+  color: #ffffff;
+}
+
+.btn.outline:hover {
+  background: #00eaff;
+  color: #000;
+  transform: scale(1.05);
+}
+
+/* TECH STACK SECTION */
+.tech-title {
+  margin-top: 40px;
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+
+.tech-icons {
+  margin-top: 15px;
+  font-size: 3rem;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.tech-icons i {
+  transition: 0.3s;
+}
+
+.tech-icons i:hover {
+  transform: scale(1.2);
+}
+
+/* LIGHT MODE OVERRIDES */
+body.light-mode .home {
+  background: #ffffff;
+  color: #111;
+}
+
+body.light-mode .highlight {
+  color: #0077ff;
+  text-shadow: none;
+}
+
+body.light-mode .btn.outline {
+  border-color: #0077ff;
+  color: #ffffff;
+}
+
+body.light-mode .btn.outline:hover {
+  background: #0077ff;
+  color: #fff;
+}
